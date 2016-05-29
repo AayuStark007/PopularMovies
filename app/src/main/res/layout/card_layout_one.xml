@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/poster_width"
+        android:layout_height="@dimen/poster_height"
+        android:id="@+id/card_poster"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerCrop"
+        android:paddingTop="@dimen/poster_padding_top"
+        android:paddingLeft="@dimen/padding_std_left"
+        android:paddingBottom="@dimen/poster_padding_bottom"
+        android:paddingRight="@dimen/poster_padding_right"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:layout_toRightOf="@+id/card_poster"
+        android:layout_toEndOf="@+id/card_poster">
+
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/title_padding_bottom"
+            android:paddingRight="@dimen/padding_std_right"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/colorBlackText"/>
+        <TextView
+            android:id="@+id/release_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/release_text_size"
+            android:paddingBottom="@dimen/release_padding_bottom"
+            android:paddingLeft="@dimen/release_padding_left"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/movie_rating"
+                android:textSize="@dimen/rating_text_size"
+                android:textColor="@color/colorBlackText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rating_total"
+                android:textSize="@dimen/rating_total_text_size"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

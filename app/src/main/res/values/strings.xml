@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_popular" translatable="false">popular</string>
+    <string name="pref_top_rated" translatable="false">top_rated</string>
+
+    <string name="action_sort">Sort By</string>
+
+    <string name="title_popular">Most Popular</string>
+    <string name="title_top_rated">Top Rated</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+
+    <string name="title_overview">Overview</string>
+
+    <string name="rating_total" translatable="false">/10</string>
+
+</resources>

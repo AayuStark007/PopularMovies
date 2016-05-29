@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+    <dimen name="padding_std_left">15dp</dimen>
+    <dimen name="padding_std_right">15dp</dimen>
+
+    <dimen name="padding_head_top">10dp</dimen>
+
+    <dimen name="padding_syn_top">5dp</dimen>
+    <dimen name="padding_syn_left">18dp</dimen>
+    <dimen name="padding_syn_bottom">10dp</dimen>
+
+    <dimen name="text_size_head">30sp</dimen>
+    <dimen name="text_size_syn">15sp</dimen>
+
+    <dimen name="poster_height">225dp</dimen>
+
+    <dimen name="poster_padding_top">20dp</dimen>
+    <dimen name="poster_padding_bottom">15dp</dimen>
+    <dimen name="poster_padding_right">10dp</dimen>
+
+    <dimen name="layout_margin_left">5dp</dimen>
+    <dimen name="layout_margin_top">20dp</dimen>
+
+    <dimen name="title_padding_bottom">2dp</dimen>
+    <dimen name="title_text_size">30sp</dimen>
+
+    <dimen name="release_text_size">20sp</dimen>
+    <dimen name="release_padding_bottom">2dp</dimen>
+    <dimen name="release_padding_left">2dp</dimen>
+
+    <dimen name="rating_text_size">40sp</dimen>
+    <dimen name="rating_total_text_size">20sp</dimen>
+    <dimen name="poster_width">150dp</dimen>
+
+</resources>
