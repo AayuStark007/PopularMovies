@@ -10,9 +10,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name=".utils.Global">
         <activity
-            android:name=".MainActivity"
+            android:name=".MovieGrid"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -22,14 +23,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MovieDetailActivity"
+            android:name=".MovieDetails"
             android:label="@string/title_activity_movie_detail"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".MovieGrid"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.aayu.popMovi.MainActivity" />
+                android:value=".MovieGrid" />
         </activity>
+
+        <provider
+            android:authorities="com.aayu.popMovi"
+            android:name=".data.MovieProvider"
+            android:enabled="true"
+            android:exported="true"/>
+
     </application>
 
 </manifest>

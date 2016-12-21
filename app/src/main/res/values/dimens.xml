@@ -17,6 +17,7 @@
 
     <dimen name="text_size_head">30sp</dimen>
     <dimen name="text_size_syn">15sp</dimen>
+    <dimen name="text_size_xsyn">22sp</dimen>
 
     <dimen name="poster_height">225dp</dimen>
 

@@ -15,5 +15,7 @@
     <string name="title_overview">Overview</string>
 
     <string name="rating_total" translatable="false">/10</string>
+    <string name="title_reviews">Reviews</string>
+    <string name="title_trailers">Trailers</string>
 
 </resources>
